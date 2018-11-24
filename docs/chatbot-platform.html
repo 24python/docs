@@ -1,0 +1,738 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>开发者平台</title>
+
+    <style>
+      .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight .gh {
+  color: #999999;
+}
+.highlight .sr {
+  color: #f6aa11;
+}
+.highlight .go {
+  color: #888888;
+}
+.highlight .gp {
+  color: #555555;
+}
+.highlight .gs {
+}
+.highlight .gu {
+  color: #aaaaaa;
+}
+.highlight .nb {
+  color: #f6aa11;
+}
+.highlight .cm {
+  color: #75715e;
+}
+.highlight .cp {
+  color: #75715e;
+}
+.highlight .c1 {
+  color: #75715e;
+}
+.highlight .cs {
+  color: #75715e;
+}
+.highlight .c, .highlight .cd {
+  color: #75715e;
+}
+.highlight .err {
+  color: #960050;
+}
+.highlight .gr {
+  color: #960050;
+}
+.highlight .gt {
+  color: #960050;
+}
+.highlight .gd {
+  color: #49483e;
+}
+.highlight .gi {
+  color: #49483e;
+}
+.highlight .ge {
+  color: #49483e;
+}
+.highlight .kc {
+  color: #66d9ef;
+}
+.highlight .kd {
+  color: #66d9ef;
+}
+.highlight .kr {
+  color: #66d9ef;
+}
+.highlight .no {
+  color: #66d9ef;
+}
+.highlight .kt {
+  color: #66d9ef;
+}
+.highlight .mf {
+  color: #ae81ff;
+}
+.highlight .mh {
+  color: #ae81ff;
+}
+.highlight .il {
+  color: #ae81ff;
+}
+.highlight .mi {
+  color: #ae81ff;
+}
+.highlight .mo {
+  color: #ae81ff;
+}
+.highlight .m, .highlight .mb, .highlight .mx {
+  color: #ae81ff;
+}
+.highlight .sc {
+  color: #ae81ff;
+}
+.highlight .se {
+  color: #ae81ff;
+}
+.highlight .ss {
+  color: #ae81ff;
+}
+.highlight .sd {
+  color: #e6db74;
+}
+.highlight .s2 {
+  color: #e6db74;
+}
+.highlight .sb {
+  color: #e6db74;
+}
+.highlight .sh {
+  color: #e6db74;
+}
+.highlight .si {
+  color: #e6db74;
+}
+.highlight .sx {
+  color: #e6db74;
+}
+.highlight .s1 {
+  color: #e6db74;
+}
+.highlight .s {
+  color: #e6db74;
+}
+.highlight .na {
+  color: #a6e22e;
+}
+.highlight .nc {
+  color: #a6e22e;
+}
+.highlight .nd {
+  color: #a6e22e;
+}
+.highlight .ne {
+  color: #a6e22e;
+}
+.highlight .nf {
+  color: #a6e22e;
+}
+.highlight .vc {
+  color: #ffffff;
+}
+.highlight .nn {
+  color: #ffffff;
+}
+.highlight .nl {
+  color: #ffffff;
+}
+.highlight .ni {
+  color: #ffffff;
+}
+.highlight .bp {
+  color: #ffffff;
+}
+.highlight .vg {
+  color: #ffffff;
+}
+.highlight .vi {
+  color: #ffffff;
+}
+.highlight .nv {
+  color: #ffffff;
+}
+.highlight .w {
+  color: #ffffff;
+}
+.highlight {
+  color: #ffffff;
+}
+.highlight .n, .highlight .py, .highlight .nx {
+  color: #ffffff;
+}
+.highlight .ow {
+  color: #f92672;
+}
+.highlight .nt {
+  color: #f92672;
+}
+.highlight .k, .highlight .kv {
+  color: #f92672;
+}
+.highlight .kn {
+  color: #f92672;
+}
+.highlight .kp {
+  color: #f92672;
+}
+.highlight .o {
+  color: #f92672;
+}
+    </style>
+    <link href="stylesheets/screen.css" rel="stylesheet" media="screen" />
+    <link href="stylesheets/print.css" rel="stylesheet" media="print" />
+      <script src="javascripts/all.js"></script>
+
+    <script src="javascripts/google-code-prettify/run_prettify.js?autoload=true" defer></script>
+
+    <style type="text/css">
+    pre.prettyprint { padding: 2px 2px 10px 50px!important; border: 0px!important; }
+    </style>
+
+  </head>
+
+  <body class="chatbot-platform" data-languages="[]">
+    <a href="#" id="nav-button">
+      <span>
+        NAV
+        <img src="images/navbar.png" alt="Navbar" />
+      </span>
+    </a>
+    <div class="toc-wrapper">
+      <a href="http://docs.chatopera.com/">
+        <img src="images/logo.png" class="logo" alt="Logo" />
+      </a>
+        <div class="search">
+          <input type="text" class="search" id="input-search" placeholder="按字母检索">
+        </div>
+        <ul class="search-results"></ul>
+      <div id="toc" class="toc-list-h1">
+          <li>
+            <a href="#8829806a37" class="toc-h1 toc-link" data-title="开发者平台">开发者平台</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#ad1229ae2f" class="toc-h2 toc-link" data-title="服务概述">服务概述</a>
+                  </li>
+                  <li>
+                    <a href="#9d4ca7f307" class="toc-h2 toc-link" data-title="账号管理">账号管理</a>
+                  </li>
+                  <li>
+                    <a href="#f988263e8c" class="toc-h2 toc-link" data-title="技术支持">技术支持</a>
+                  </li>
+                  <li>
+                    <a href="#560ab47a63" class="toc-h2 toc-link" data-title="配额">配额</a>
+                  </li>
+                  <li>
+                    <a href="#2fd3e91685" class="toc-h2 toc-link" data-title="多轮对话">多轮对话</a>
+                  </li>
+                  <li>
+                    <a href="#1dda51f9e3" class="toc-h2 toc-link" data-title="知识库">知识库</a>
+                  </li>
+                  <li>
+                    <a href="#8d9bda4007" class="toc-h2 toc-link" data-title="导入知识库">导入知识库</a>
+                  </li>
+                  <li>
+                    <a href="#863fb227d5" class="toc-h2 toc-link" data-title="导出知识库">导出知识库</a>
+                  </li>
+                  <li>
+                    <a href="#ca8ffc3990" class="toc-h2 toc-link" data-title="统计">统计</a>
+                  </li>
+                  <li>
+                    <a href="#19e0e3f3df" class="toc-h2 toc-link" data-title="历史记录">历史记录</a>
+                  </li>
+                  <li>
+                    <a href="#0a2e3b6b53" class="toc-h2 toc-link" data-title="系统集成">系统集成</a>
+                  </li>
+                  <li>
+                    <a href="#c27678dd54" class="toc-h2 toc-link" data-title="获得机器人详情">获得机器人详情</a>
+                  </li>
+                  <li>
+                    <a href="#e67bec8043" class="toc-h2 toc-link" data-title="检索多轮对话">检索多轮对话</a>
+                  </li>
+                  <li>
+                    <a href="#888fe8f0fc" class="toc-h2 toc-link" data-title="检索知识库">检索知识库</a>
+                  </li>
+                  <li>
+                    <a href="#1a78926340" class="toc-h2 toc-link" data-title="获得用户列表">获得用户列表</a>
+                  </li>
+                  <li>
+                    <a href="#3cc6940f4c" class="toc-h2 toc-link" data-title="屏蔽用户">屏蔽用户</a>
+                  </li>
+                  <li>
+                    <a href="#6dd5a78e46" class="toc-h2 toc-link" data-title="取消屏蔽">取消屏蔽</a>
+                  </li>
+                  <li>
+                    <a href="#e097ddd94a" class="toc-h2 toc-link" data-title="是否被屏蔽">是否被屏蔽</a>
+                  </li>
+                  <li>
+                    <a href="#111ec4be03" class="toc-h2 toc-link" data-title="获取聊天历史">获取聊天历史</a>
+                  </li>
+                  <li>
+                    <a href="#20afc81756" class="toc-h2 toc-link" data-title="可靠性保证">可靠性保证</a>
+                  </li>
+              </ul>
+          </li>
+      </div>
+        <ul class="toc-footer">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="chatbot-engine.html">智能问答引擎</a></li>
+            <li><a href="conversation-designer.html">多轮对话设计器</a></li>
+            <li><a href="omni-channel-customer-support-system.html">春松客服</a></li>
+        </ul>
+    </div>
+    <div class="page-wrapper">
+      <div class="dark-box"></div>
+      <div class="content">
+        <h1 id='8829806a37'>开发者平台</h1>
+<p><a href="https://bot.chatopera.com" target="_blank">https://bot.chatopera.com</a></p>
+<h2 id='ad1229ae2f'>服务概述</h2>
+<p>聊天机器人即服务，面向互联网用户开放，聊天机器人开发者/开发商可以快速实现企业级的聊天机器人服务。</p>
+<h2 id='9d4ca7f307'>账号管理</h2><h3 id='da0e5f8dc9'>注册</h3>
+<blockquote>
+<p>提示：请保证填写正确的邮箱地址用于找回密码，接收系统通知，该邮箱不会泄漏给第三方。</p>
+</blockquote>
+
+<p>开发者平台的地址是：<a href="https://bot.chatopera.com" target="_blank">https://bot.chatopera.com</a></p>
+
+<p>从浏览器打开后，点击“立即使用”，跳转到<em>登录/注册</em>页面，输入<em>邮箱</em>和<em>密码</em>，使用“回车键”【Enter】提交，即完成。</p>
+<h3 id='2f3ed4c7a4'>更新密码</h3>
+<p>登录后，在右上角看到头像，点击头像，在菜单中点击“个人中心”，来到“个人中心”页面后，可填入新的密码，点击“保存”。</p>
+<h3 id='86c0969bc5'>找回密码</h3>
+<p>进入登录页面 <a href="https://bot.chatopera.com/login">https://bot.chatopera.com/login</a>，点击“忘记密码”，根据提示完成。</p>
+
+<p>此处会使用邮箱验证账号。</p>
+<h3 id='2ec024fb9e'>修改头像</h3>
+<p>登录后，在右上角看到头像，点击头像，在菜单中点击“个人中心”，来到“个人中心”页面后，点击屏幕中间的“头像”，弹出上传头像表单。</p>
+<h2 id='f988263e8c'>技术支持</h2>
+<p>在使用过程中，可以在控制台右侧看到“技术支持”常驻控件，点击“技术支持”，进入和客服人员的对话页面。</p>
+
+<ul>
+<li><p>如果没有客服在线就绪，系统会提示留言。</p></li>
+<li><p>获取技术支持的邮箱是 <a href="mailto:info@chatopera.com?Subject=【Chatopera开发者平台】" target="_top">info@chatopera.com</a></p></li>
+<li><p>开发者平台QQ交流群：809987971</p></li>
+</ul>
+<h2 id='560ab47a63'>配额</h2>
+<p>当前开发者平台每日单个用户可以免费请求机器人对话2000次，未来会至少保持单日&gt;=1000次的免费配额，多出的部分按量收费，按日结算。</p>
+<h2 id='2fd3e91685'>多轮对话</h2>
+<p>多轮对话是Chatopera开发者平台的特色功能，聊天机器人开发者可以使用<a href="conversation-designer.html">多轮对话设计器</a>实现满足企业业务需求的聊天机器人。多轮对话基于规则，使用<em>对话脚本</em>，并结合JavaScript*函数*实现固定话术和固定流程的聊天服务。</p>
+
+<table class="image">
+<caption align="bottom">多轮对话管理</caption>
+<tr><td><img width="800" src="images/platform/1.png" alt=""/></td></tr>
+</table>
+
+<p>请访问<a href="conversation-designer.html">详情页面</a>了解更多内容。</p>
+<h2 id='1dda51f9e3'>知识库</h2>
+<p>知识库是基于信息检索系统的一问一答的问答服务，通过建立【问题-扩展问-答案】和近义词实现智能问答，常用于常见问题集的机器人对话。</p>
+
+<table class="image">
+<caption align="bottom">知识库管理</caption>
+<tr><td><img width="800" src="images/platform/2.png" alt=""/></td></tr>
+</table>
+<h3 id='630f94d570'>问答对</h3>
+<ul>
+<li>新建</li>
+</ul>
+
+<table class="image">
+<caption align="bottom">创建问答对</caption>
+<tr><td><img width="800" src="images/platform/3.png" alt=""/></td></tr>
+</table>
+
+<ul>
+<li><p>编辑</p></li>
+<li><p>调试知识库</p></li>
+</ul>
+
+<table class="image">
+<caption align="bottom">调试命中率</caption>
+<tr><td><img width="400" src="images/platform/4.png" alt=""/></td></tr>
+</table>
+
+<p>系统集成聊天机器人时，发送的知识库检索或多轮对话检索，会返回置信度<em>score</em>（也称为命中域值），该值在[0~1]区间，值越大代表机器人越确定回复的准确性。</p>
+
+<p>对知识库的评测，常常用一系列测试问题查询返回结果，进而计算机器人回答的准确率评价检索系统。</p>
+
+<p>在系统集成时，常常设定一个置信度，在高于该值时，可以将机器人的回复返回给消费者。或在某个区间时，询问消费者<em>是否问以下问题</em>，这是目前智能客服常见的场景。</p>
+
+<p>通过知识库管理页面的命中率调试窗口，开发者可以调整置信度（也称为命中域值）来调试知识库。</p>
+
+<ul>
+<li>启用/禁用问答对</li>
+</ul>
+
+<p>在问答对列表，使用<em>拨动开关</em>切换状态。</p>
+<h2 id='8d9bda4007'>导入知识库</h2>
+<p>Chatopera开发者平台支持导入一个文件，批量创建问答对。</p>
+
+<table class="image">
+<caption align="bottom">导入知识库</caption>
+<tr><td><img width="800" src="images/platform/5.png" alt=""/></td></tr>
+</table>
+
+<p>目前，该文件格式必须为<strong>.xlsx</strong>，并且在表头注名各列的含义。</p>
+
+<table><thead>
+<tr>
+<th>列</th>
+<th>含义</th>
+<th>说明</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>第一列</td>
+<td>是否开启</td>
+<td>问答对在知识库中有<em>启用/禁用</em>两个状态，只有<em>启用</em>的问答对在检索时有效。<em>禁用</em>状态的问答对可以是草稿，被废弃但是不想删除等情况。</td>
+</tr>
+<tr>
+<td>第二列</td>
+<td>问题</td>
+<td>用文本描述的问题</td>
+</tr>
+<tr>
+<td>第三列</td>
+<td>答案</td>
+<td>用文本描述的答案</td>
+</tr>
+<tr>
+<td>第四列</td>
+<td>*扩展问1</td>
+<td>问题的另一种问法</td>
+</tr>
+<tr>
+<td>第五列</td>
+<td>*扩展问2</td>
+<td>问题的另一种问法</td>
+</tr>
+<tr>
+<td>第六列</td>
+<td>*扩展问3</td>
+<td>问题的另一种问法</td>
+</tr>
+</tbody></table>
+
+<p>其中，<em>第一列</em>，<em>第二列</em>，<em>第三列</em> 是必填项，扩展问不是必填项，但是扩展问越多，机器人越智能。</p>
+
+<p>另外，<em>*扩展问N</em>必须出现在当列有值的时候，用户可以添加多个扩展问。</p>
+
+<p>在知识库管理页面，也有下载<em>知识库模版</em>文件的链接。</p>
+<h2 id='863fb227d5'>导出知识库</h2>
+<p>用户可以随时将知识库文件导出，导出文件可以更好的使用其他工具编辑，或作为备份，导出文件的格式为Excel。</p>
+<h3 id='283681ead2'>近义词</h3>
+<blockquote>
+<p>提示：目前添加近义词是可以优化命中率的，但近期会升级优化这部分，得到更显著的提升。</p>
+</blockquote>
+
+<p>近义词是另一种增加聊天机器人智能化水平的另外一个手段。</p>
+
+<ul>
+<li>新建</li>
+</ul>
+
+<p>在知识库管理页面，点击<em>近义词</em>，就可以看到<em>新建</em>按钮。</p>
+
+<ul>
+<li>编辑</li>
+</ul>
+
+<table class="image">
+<caption align="bottom">创建近义词</caption>
+<tr><td><img width="800" src="images/platform/6.png" alt=""/></td></tr>
+</table>
+<h2 id='ca8ffc3990'>统计</h2>
+<p>在机器人的首页，可以看到机器人被访问的情况，统计分为三种：知识库检索，多轮对话检索和知识库点击事件。</p>
+<h2 id='19e0e3f3df'>历史记录</h2>
+<p>在机器人的一级菜单，可以进入历史记录列表，左侧是和该机器人对话的用户们，按照最近联系时间降序排列。选择一个用户，右侧展示详细的聊天历史。</p>
+
+<table class="image">
+<caption align="bottom">对话历史</caption>
+<tr><td><img width="800" src="images/platform/7.png" alt=""/></td></tr>
+</table>
+<h2 id='0a2e3b6b53'>系统集成</h2>
+<p>Chatopera开发者平台提供集成聊天机器人的方案为SDK，目前仅支持Java和Node.js，近期也会补充更多语言的SDK。</p>
+
+<p>在聊天机器人的一级菜单，可以进入<em>集成</em>页面。</p>
+
+<table class="image">
+<caption align="bottom">集成</caption>
+<tr><td><img width="800" src="images/platform/8.png" alt=""/></td></tr>
+</table>
+
+<p>对于不同语言而言，其安装配置方式有别，但是用代码取得一个聊天机器人实例的方式大同小异，参数是一致的，请求结果也全部采用JSON数据格式。</p>
+
+<p>各SDK的配置文档、接口文档和示例程序可以在<em>集成</em>页面得到。以下内容是对不同接口返回接口的解释。</p>
+<h2 id='c27678dd54'>获得机器人详情</h2>
+<blockquote>
+<p>SDK接口</p>
+</blockquote>
+<pre class="highlight plaintext"><code>chatbot.details
+</code></pre>
+<pre class="prettyprint">
+{
+  "name": "test1",
+  "fallback": "我不明白您的意思。",
+  "description": "ss",
+  "welcome": "你好！我是机器人客服。",
+  "primaryLanguage": "zh_CN"
+}
+</pre>
+
+<p><em>name</em>: 机器人名字
+<em>fallback</em>: 兜底回复
+<em>description</em>: 机器人描述
+<em>welcome</em>: 机器人问候语
+<em>primaryLanguage</em>: 机器人语言</p>
+<h2 id='e67bec8043'>检索多轮对话</h2>
+<blockquote>
+<p>SDK接口</p>
+</blockquote>
+<pre class="highlight plaintext"><code>chatbot.conversation
+</code></pre>
+<pre class="prettyprint">
+{
+  "state": "default",
+  "createdAt": 1541677323194,
+  "string": "欢迎惠顾！",
+  "topicName": "greetings",
+  "subReplies": [],
+  "service": {
+    "provider": "conversation"
+  },
+  "logic_is_fallback": false,
+  "botName": "test1"
+}
+</pre>
+
+<p><em>state</em>: 业务字段，可以在多轮对话脚本中设置
+<em>string</em>: 机器人回复的文本内容
+<em>topicName</em>: 机器人会话主题
+<em>logic_is_fallback</em>: 是否是兜底回复
+<em>botName</em>: 机器人的名字</p>
+
+<p><code>service</code>代表返回的数据来源，<strong>provider:script</strong>指<strong>多轮对话</strong>，<strong>provider:faq</strong>指<strong>知识库</strong>；不同数据来源也会提供相应信息。</p>
+
+<table><thead>
+<tr>
+<th>provider</th>
+<th>key</th>
+<th>解释</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>faq</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>docId</td>
+<td>文档ID</td>
+</tr>
+<tr>
+<td></td>
+<td>post</td>
+<td>标准问</td>
+</tr>
+<tr>
+<td></td>
+<td>score</td>
+<td>分数</td>
+</tr>
+<tr>
+<td></td>
+<td>threshold</td>
+<td>阀值</td>
+</tr>
+<tr>
+<td>conversation</td>
+<td>多轮对话</td>
+<td></td>
+</tr>
+<tr>
+<td>fallback</td>
+<td>兜底回复</td>
+<td></td>
+</tr>
+<tr>
+<td>mute</td>
+<td>该用户被该机器人屏蔽</td>
+<td></td>
+</tr>
+</tbody></table>
+<h4 id='6d9de19890'>回复处理逻辑</h4>
+<p>多轮对话获取回复的逻辑解释如下：</p>
+
+<table class="image">
+<caption align="bottom">查询逻辑</caption>
+<tr><td><img width="800" src="images/products/chatbot-engine-1.png" alt="查询逻辑"/></td></tr>
+</table>
+
+<ol>
+<li>用户输入，以文本的形式输入，语音输入也需要转化成文字。</li>
+<li>[知识库检索] 如果知识库检索出相似度大于0.8的问答对，直接返回得分最高的问题的答案。</li>
+<li>[多轮对话检索] 如果知识库没有检索出相似度大于0.8的问答对，检索多轮对话，如果命中了一个规则，直接返回答案。</li>
+<li>[兜底回复] 如果多轮对话也没有检索出答案，返回兜底回复。</li>
+</ol>
+<h2 id='888fe8f0fc'>检索知识库</h2>
+<blockquote>
+<p>SDK接口</p>
+</blockquote>
+<pre class="highlight plaintext"><code>chatbot.faq
+</code></pre>
+<pre class="prettyprint">
+[
+  {
+    "id": "AWbyu9DYjTtqn-PFv1GV",
+    "score": 1,
+    "post": "停效期间的保单是否能办理减保？",
+    "reply": "停效期间的保单可以办理减"
+  },
+  {
+    "id": "AWbyu86_jTtqn-PFv1GR",
+    "score": 0.3333333333333333,
+    "post": "主险期缴期间，附加险能不能办理减额缴清？",
+    "reply": "根据目前的业务规定：附加险缴费方式应与主险一致"
+  }
+]
+</pre>
+
+<p><em>id</em>: 问答对Id
+<em>score</em>: 置信度
+<em>post</em>: 标准问
+<em>reply</em>: 答案</p>
+<h2 id='1a78926340'>获得用户列表</h2>
+<blockquote>
+<p>SDK接口</p>
+</blockquote>
+<pre class="highlight plaintext"><code>chatbot.users
+</code></pre>
+<pre class="prettyprint">
+[
+  {
+    "userId": "nodesdk",
+    "lasttime": "2018-11-08T11:45:44.268Z",
+    "created": "2018-11-08T11:42:02.104Z"
+  },
+  {
+    "userId": "superadmin",
+    "lasttime": "2018-11-08T11:33:23.163Z",
+    "created": "2018-11-08T11:33:23.167Z"
+  },
+  {
+    "userId": "c100680c10dc534dac3e28a024e59207",
+    "lasttime": "2018-11-08T08:58:48.575Z",
+    "created": "2018-11-08T08:57:16.915Z"
+  }
+]
+</pre>
+
+<p><em>userId</em>: 和机器人对话的用户标识
+<em>lasttime</em>: 最后沟通时间
+<em>created</em>: 第一次沟通时间</p>
+<h2 id='3cc6940f4c'>屏蔽用户</h2>
+<blockquote>
+<p>SDK接口</p>
+</blockquote>
+<pre class="highlight plaintext"><code>chatbot.mute
+</code></pre>
+<p>正常返回时，statusCode 200, body 为 <code>{}</code>。</p>
+<h2 id='6dd5a78e46'>取消屏蔽</h2>
+<blockquote>
+<p>SDK接口</p>
+</blockquote>
+<pre class="highlight plaintext"><code>chatbot.unmute
+</code></pre>
+<p>正常返回时，statusCode 200, body 为 <code>{}</code>。</p>
+<h2 id='e097ddd94a'>是否被屏蔽</h2>
+<blockquote>
+<p>SDK接口</p>
+</blockquote>
+<pre class="highlight plaintext"><code>chatbot.ismute
+</code></pre>
+<p>返回Boolean类型值。</p>
+
+<pre class="prettyprint">
+true
+</pre>
+<h2 id='111ec4be03'>获取聊天历史</h2>
+<blockquote>
+<p>SDK接口</p>
+</blockquote>
+<pre class="highlight plaintext"><code>chatbot.chats
+</code></pre>
+<pre class="prettyprint">
+{
+  "total": 4,
+  "current_page": 1,
+  "total_page": 1,
+  "data": [
+    {
+      "userId": "nodesdk",
+      "textMessage": "xx",
+      "direction": "outbound",
+      "service": "faq",
+      "confidence": 1,
+      "created": "2018-11-08T11:45:44.448Z"
+    },
+    {
+      "userId": "nodesdk",
+      "textMessage": "xxx",
+      "direction": "inbound",
+      "service": "faq",
+      "created": "2018-11-08T11:45:44.276Z"
+    },
+    {
+      "userId": "nodesdk",
+      "textMessage": "xx",
+      "direction": "outbound",
+      "service": "conversation",
+      "confidence": 1,
+      "created": "2018-11-08T11:42:03.234Z"
+    },
+    {
+      "userId": "nodesdk",
+      "textMessage": "你好",
+      "direction": "inbound",
+      "service": "conversation",
+      "created": "2018-11-08T11:42:02.110Z"
+    }
+  ]
+}
+</pre>
+
+<p><em>total</em>: 该用户和机器人之间对话总数
+<em>current_page</em>： 当前页
+<em>total_page</em>: 总页数
+<em>userId</em>: 用户标识
+<em>textMessage</em>: 文本内容
+<em>direction</em>: 消息传递方向，【inbound】为消费者发送，【outbound】为机器人发送
+<em>service</em>: 提供回复的服务
+<em>confidence</em>: 置信度
+<em>created</em>: 消息创建时间</p>
+<h2 id='20afc81756'>可靠性保证</h2>
+<p>Chatopera开发者平台是企业级的服务，依托于青云的PaaS平台上，使用监控、负载均衡、集群等功能保证服务的高可靠性。</p>
+
+      </div>
+      <div class="dark-box">
+      </div>
+    </div>
+  </body>
+</html>
